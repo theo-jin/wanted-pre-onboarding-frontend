@@ -1,0 +1,11 @@
+.footer {
+  height: 5rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+p {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+
