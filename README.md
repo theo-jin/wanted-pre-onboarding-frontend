@@ -3,7 +3,7 @@
 
 ## 1. 프로젝트 실행 방법
 ```
-   git clone https://github.com/theo-jin/wanted-pre-onboarding-frontend
+   git clone https://github.com/theo-jin/wanted-pre-onboarding-frontend.git
    npm install
    npm start
 ```
