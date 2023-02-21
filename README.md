@@ -13,7 +13,7 @@
   2) TODO LIST
 
 ## 3. 배포 링크
-  https://wanted-pre-onboarding-fr-15c81--preview-name-co84ocis.web.app/
+https://wanted-pre-onboarding-fr-15c81.firebaseapp.com/
 
 ## 4.주요 사용 기술
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
