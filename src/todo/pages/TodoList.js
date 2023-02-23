@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { AuthContext } from "../components/AuthProvider";
-import { TodoContext } from "../components/TodoProvider";
+import { AuthContext } from "../../auth/context/AuthProvider";
+import { TodoContext } from "../context/TodoProvider";
 import CreateTodo from "../components/CreateTodo";
-import { getTodos } from "../hooks/api";
+import { getTodos } from "../api";
 import Todo from "../components/Todo";
 
 const TodoList = () => {

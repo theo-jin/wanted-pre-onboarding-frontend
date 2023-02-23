@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { AuthContext } from "./AuthProvider";
+import { AuthContext } from "../../auth/context/AuthProvider";
 
 import classes from './Navbar.module.css'
 

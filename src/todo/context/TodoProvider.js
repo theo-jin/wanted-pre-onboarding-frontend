@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { getTodos } from "../hooks/api";
+import { getTodos } from "../api/index";
 
 export const TodoContext = createContext();
 

@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from "react";
 
-import { createTodo } from "../hooks/api";
-import { TodoContext } from "./TodoProvider";
+import { createTodo } from "../api";
+import { TodoContext } from "../context/TodoProvider";
 
 const CreateTodo = () => {
   const { items, setItems } = useContext(TodoContext);

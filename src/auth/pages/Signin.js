@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { AuthContext } from "../components/AuthProvider";
-import { signin } from "../hooks/api";
+import { AuthContext } from "../context/AuthProvider";
+import { signin } from "../api";
 
 const Signin = () => {
   const { onLogin, setOnLogin } = useContext(AuthContext);

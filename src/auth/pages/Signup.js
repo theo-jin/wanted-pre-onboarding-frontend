@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useContext  } from "react";
 import { useNavigate } from "react-router-dom";
-import { signup } from "../hooks/api";
+import { signup } from "../api";
 
 
-import { AuthContext } from "../components/AuthProvider";
+import { AuthContext } from "../context/AuthProvider";
 
 const Signup = () => {
   const [showErr, setShowErr] = useState("이메일과 비밀번호를 입력해주세요");

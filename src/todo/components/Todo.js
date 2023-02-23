@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Todo.module.css"
-import { deleteTodo, updateTodo } from "../hooks/api";
+import { deleteTodo, updateTodo } from "../api";
 
 const Todo = ({ id, title, isChecked, onDelete = (f) => f }) => {
   const [todo, setTodo] = useState(title);
